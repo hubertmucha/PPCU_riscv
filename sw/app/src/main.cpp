@@ -2,10 +2,7 @@
 #include "delay.h"
 #include "gpio.h"
 
-//static constexpr uint32_t led_mask{0xf};
-
 #define TAB_SIZE 50
-
 
 // SOS
 static uint8_t tab0[TAB_SIZE] = {1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
